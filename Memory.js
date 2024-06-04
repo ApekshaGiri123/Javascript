@@ -16,3 +16,6 @@ console.table([objOne.email,objOne.id,objTwo.email,objTwo.id])
 objTwo.email="xyz@email.com"
 console.table([objOne.email,objOne.id,objTwo.email,objTwo.id])
 // 
+let name="ABC"
+let newString=name.slice(-1,4)
+console.log(newString);
