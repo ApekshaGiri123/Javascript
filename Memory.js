@@ -15,3 +15,4 @@ const objTwo=objOne
 console.table([objOne.email,objOne.id,objTwo.email,objTwo.id])
 objTwo.email="xyz@email.com"
 console.table([objOne.email,objOne.id,objTwo.email,objTwo.id])
+// 
