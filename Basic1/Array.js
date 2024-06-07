@@ -24,3 +24,43 @@ console.log(arr);
 
 console.log("splice",arr.splice(1,3));//Removes elements from an array and, if necessary, inserts new elements in their place, returning the deleted elements.
 console.log(arr);
+
+
+
+// Push
+// const z=[1,2,3]
+// const a=[5,6,7]
+// z.push(a)
+// console.log(z);// add array inside element as whole second array  [ 1, 2, 3, [ 5, 6, 7 ] ]
+
+// concat
+// const z=[1,2,3]
+// const a=[5,6,7]
+// const aa=z.concat(a)
+// console.log(aa);// add arrayy [ 1, 2, 3, 5, 6, 7]
+
+// spread
+const z=[1,2,3]
+const a=[5,6,7]
+const ans=[...z,...a]
+console.log(ans);// add array inside element as whole second array  [ 1, 2, 3, [ 5, 6, 7 ] ]
+
+
+
+
+// flat method
+
+const aa=[1,2,[2,3],[5,6,[4,5]],5]
+const bb=aa.flat(Infinity)
+console.log(bb);
+
+
+
+//  convert into array
+let d="Apeksha"
+console.log(Array.from(d))
+console.log(Array.isArray(d))
+
+s="sdf"
+c=10
+console.log(Array.of(s,c));
