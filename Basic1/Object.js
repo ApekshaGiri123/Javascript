@@ -19,3 +19,6 @@ obj.msg=function(){
 console.log(obj.msg())//Hi undefined
 console.log(obj.msg)//[Function (anonymous)]
 console.log(`hi Dear,${obj.name}`);
+
+
+
